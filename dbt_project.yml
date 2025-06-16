@@ -42,3 +42,6 @@ models:
     dim:
       +materialized: table
       +schema: dev
+    fact:
+      +materialized: table
+      +schema: dev

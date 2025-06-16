@@ -1,3 +1,10 @@
+{{
+    config(
+        materialized='table'
+    )
+}}
+
+
 WITH RAW_RATINGS AS (
     SELECT * FROM MOVIELENS.RAW.RAW_RATINGS
 )
