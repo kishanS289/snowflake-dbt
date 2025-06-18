@@ -35,7 +35,6 @@ clean-targets: # directories to be removed by `dbt clean`
 
 models:
   netflixproj:
-    +materialized: view
     staging:
       +materialized: view
       +schema: dev
@@ -45,3 +44,8 @@ models:
     fact:
       +materialized: table
       +schema: dev
+    mart:
+      +materialized: table
+      +schema: dev
+
+      
