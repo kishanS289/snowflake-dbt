@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: netflix
+    database: movielens
+    schema: raw
+    tables:
+      - name: r_movies
+        identifier: raw_movies 
